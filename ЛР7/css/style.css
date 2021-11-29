@@ -1,0 +1,119 @@
+body {
+    background-color: #082c3b;
+    width: 90%;
+}
+
+#setQuestion {
+    width: 95%;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #0f2d61;
+    border-color: #07152d;
+    color: #c6dcff;
+}
+
+.top_block {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #041129;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.writeYourQuestion {
+    color: #578bd5;
+    font-size: 16px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: bold;
+    line-height: 22px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.ball {
+    margin: 15px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    width: 12%;
+    height: 24%;
+    z-index: 1;
+    color: #c6dcff;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* add media screens */
+@media screen and (max-width: 900px) {
+    
+    .top_block {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 55%;
+    }
+
+    .writeYourQuestion {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    #setQuestion {
+        font-size: 19px;
+    }
+    .text {
+        width: 20%;
+        height: 27%;
+        top: 35%;
+        left: 39%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    
+    .top_block {
+        width: 65%;
+    }
+    
+    img {
+        width: 75%;
+    }
+    .text {
+        width: 25%;
+        height: 29%;
+        top: 34%;
+        left: 36%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #setQuestion {
+        font-size: 10px;
+    }
+    .text {
+        width: 22%;
+        height: 25%;
+        top: 34%;
+        left: 36.8%;
+        font-size: 12px;
+    }
+}
